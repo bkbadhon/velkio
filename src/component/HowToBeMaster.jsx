@@ -6,11 +6,11 @@ const HowToBeMaster = () => {
     return (
         <div>
              <Helmet>
-                <title>Velkio | How to Become Master</title>
+                <title>Velki | How to Become Master</title>
             </Helmet>
             <Navbar></Navbar>
             <div className='md:w-9/12 border-2 border-dashed p-4 mx-auto my-12'>
-                <h2 className='text-3xl font-semibold'>কিভাবে আমি Velkio তে অনলাইন মাষ্টার এজেন্ট হতে পারি?</h2>
+                <h2 className='text-3xl font-semibold'>কিভাবে আমি Velki তে অনলাইন মাষ্টার এজেন্ট হতে পারি?</h2>
 
                 <p className='my-12'>অনলাইন এজেন্ট হবার আগে আপনি লোকাল এজেন্ট হবার নিয়ম গুলো পড়ে নিনঃ
 

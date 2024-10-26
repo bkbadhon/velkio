@@ -5,7 +5,7 @@ const Ovijog = () => {
     return (
         <div>
             <Helmet>
-                <title>Velkio | কিভাবে অভিযোগ করবেন</title>
+                <title>Velki | কিভাবে অভিযোগ করবেন</title>
             </Helmet>
             <Navbar></Navbar>
             <div className="md:w-9/12 mx-auto my-12">

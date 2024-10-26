@@ -6,7 +6,7 @@ const AgentType = () => {
     return (
         <div>
             <Helmet>
-                <title>Velkio | এজেন্ট কয় প্রকার</title>
+                <title>Velki | এজেন্ট কয় প্রকার</title>
             </Helmet>
             <Navbar></Navbar>
             <div className='md:w-9/12 mx-auto my-12'>

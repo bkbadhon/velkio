@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <div className=' p-4'>
             <Helmet>
-                <title>Velkio | Home</title>
+                <title>Velki | Home</title>
             </Helmet>
             <img className='w-full h-72 object-fit' src={logo} alt="" />
 
@@ -61,77 +61,257 @@ const Home = () => {
                                 <th className='text-black'>2</th>
                                 <td className="md:text-xl text-xs text-black  font-semibold">Master</td>
                                 <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
-                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+966538432567">+966538432534</a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+996502319040">+996502319040</a></td>
                                 <td className="md:text-xl text-xs font-semibold text-red-500">COMPLAIN</td>
                             </tr>
                             <tr className="bg-gray-100 ">
                                 <th className='text-black'>3</th>
                                 <td className="md:text-xl text-xs text-black font-semibold">Master</td>
                                 <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
-                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+966538432567">+966538432555</a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+97439900607">+97439900607</a></td>
                                 <td className="md:text-xl text-xs font-semibold text-red-500">COMPLAIN</td>
                             </tr>
                             <tr className="bg-gray-100 ">
                                 <th className='text-black'>4</th>
                                 <td className="md:text-xl text-xs text-black font-semibold">Master</td>
                                 <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
-                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+966538432567">+966538432563</a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+966538432567">+85510801052</a></td>
                                 <td className="md:text-xl text-xs font-semibold text-red-500">COMPLAIN</td>
                             </tr>
                             <tr className="bg-gray-100 ">
                                 <th className='text-black'>5</th>
                                 <td className="md:text-xl text-xs text-black font-semibold">Master</td>
                                 <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
-                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+966538432567">+966538432562</a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+996502319040">+996502319040</a></td>
                                 <td className="md:text-xl text-xs font-semibold text-red-500">COMPLAIN</td>
                             </tr>
                             <tr className="bg-gray-100 ">
                                 <th className='text-black'>6</th>
                                 <td className="md:text-xl text-xs text-black font-semibold">Master</td>
                                 <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
-                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+966538432567">+966538432564</a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+966538432567">+85510801052</a></td>
                                 <td className="md:text-xl text-xs font-semibold text-red-500">COMPLAIN</td>
                             </tr>
                             <tr className="bg-gray-100 ">
                                 <th className='text-black'>7</th>
                                 <td className="md:text-xl text-xs text-black font-semibold">Master</td>
                                 <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
-                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+966538432567">+966538432565</a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+85510801052">+85510801052</a></td>
                                 <td className="md:text-xl text-xs font-semibold text-red-500">COMPLAIN</td>
                             </tr>
                             <tr className="bg-gray-100 ">
                                 <th className='text-black'>8</th>
                                 <td className="md:text-xl text-xs text-black font-semibold">Master</td>
                                 <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
-                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+966538432567">+966538432568</a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+97439900607">+97439900607</a></td>
                                 <td className="md:text-xl text-xs font-semibold text-red-500">COMPLAIN</td>
                             </tr>
                             <tr className="bg-gray-100 ">
                                 <th className='text-black'>9</th>
                                 <td className="md:text-xl text-xs text-black font-semibold">Master</td>
                                 <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
-                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+966538432567">+966538432560</a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+966538432567">+85510801052</a></td>
                                 <td className="md:text-xl text-xs font-semibold text-red-500">COMPLAIN</td>
                             </tr>
                             <tr className="bg-gray-100 ">
                                 <th className='text-black'>10</th>
                                 <td className="md:text-xl text-xs text-black font-semibold">Master</td>
                                 <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
-                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+966538432567">+966538432567</a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+996502319040">+996502319040</a></td>
                                 <td className="md:text-xl text-xs font-semibold text-red-500">COMPLAIN</td>
                             </tr>
                             <tr className="bg-gray-100 ">
                                 <th className='text-black'>11</th>
                                 <td className="md:text-xl text-xs text-black font-semibold">Master</td>
                                 <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
-                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+966538432567">+966538432564</a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+97439900607">+97439900607</a></td>
                                 <td className="md:text-xl text-xs font-semibold text-red-500">COMPLAIN</td>
                             </tr>
 
                         </tbody>
                     </table>
                 </div>
-                
+
+                <h2 className='uppercase font-bold text-black text-2xl  text-center my-6'>Super Agent List</h2>
+                <div className="overflow-x-hidden md:w-11/12 mx-auto my-8">
+                    <table className="md:table table-xs">
+                        {/* head */}
+                        <thead>
+                            <tr className="">
+                                <th className="md:text-xl text-xs font-bold">ID NO</th>
+                                <th className="md:text-xl text-xs font-bold">AGENT</th>
+                                <th className="md:text-xl text-xs font-bold">APP</th>
+                                <th className="md:text-xl text-xs font-bold">NUMBER</th>
+                                <th className="md:text-xl text-xs font-bold">COMPLAIN</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr className="bg-gray-100 ">
+                                <th className='text-black'>26</th>
+                                <td className="md:text-xl text-xs text-black  font-semibold">Master</td>
+                                <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+60147553768">+60147553768</a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500">COMPLAIN</td>
+                            </tr>
+                            <tr className="bg-gray-100 ">
+                                <th className='text-black'>36</th>
+                                <td className="md:text-xl text-xs text-black font-semibold">Master</td>
+                                <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+447378373213">+447378373213
+                                </a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500">COMPLAIN</td>
+                            </tr>
+                            <tr className="bg-gray-100 ">
+                                <th className='text-black'>48</th>
+                                <td className="md:text-xl text-xs text-black font-semibold">Master</td>
+                                <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+85510801052">+85510801052</a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500">COMPLAIN</td>
+                            </tr>
+                            <tr className="bg-gray-100 ">
+                                <th className='text-black'>58</th>
+                                <td className="md:text-xl text-xs text-black font-semibold">Master</td>
+                                <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+996502319040">+996502319040</a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500">COMPLAIN</td>
+                            </tr>
+                            <tr className="bg-gray-100 ">
+                                <th className='text-black'>60</th>
+                                <td className="md:text-xl text-xs text-black font-semibold">Master</td>
+                                <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+60147553768">+60147553768</a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500">COMPLAIN</td>
+                            </tr>
+                            <tr className="bg-gray-100 ">
+                                <th className='text-black'>70</th>
+                                <td className="md:text-xl text-xs text-black font-semibold">Master</td>
+                                <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+447378373213">+447378373213</a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500">COMPLAIN</td>
+                            </tr>
+                            <tr className="bg-gray-100 ">
+                                <th className='text-black'>89</th>
+                                <td className="md:text-xl text-xs text-black font-semibold">Master</td>
+                                <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+60147553768">+60147553768</a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500">COMPLAIN</td>
+                            </tr>
+                            <tr className="bg-gray-100 ">
+                                <th className='text-black'>99</th>
+                                <td className="md:text-xl text-xs text-black font-semibold">Master</td>
+                                <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+85510801052">+85510801052</a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500">COMPLAIN</td>
+                            </tr>
+                            <tr className="bg-gray-100 ">
+                                <th className='text-black'>180</th>
+                                <td className="md:text-xl text-xs text-black font-semibold">Master</td>
+                                <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+447378373213">+447378373213</a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500">COMPLAIN</td>
+                            </tr>
+                            <tr className="bg-gray-100 ">
+                                <th className='text-black'>117</th>
+                                <td className="md:text-xl text-xs text-black font-semibold">Master</td>
+                                <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+60147553768">+60147553768</a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500">COMPLAIN</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <h2 className='uppercase font-bold text-black text-2xl  text-center my-6'>Sub Admin List</h2>
+                <div className="overflow-x-hidden md:w-11/12 mx-auto my-8">
+                    <table className="md:table table-xs">
+                        {/* head */}
+                        <thead>
+                            <tr className="">
+                                <th className="md:text-xl text-xs font-bold">ID NO</th>
+                                <th className="md:text-xl text-xs font-bold">AGENT</th>
+                                <th className="md:text-xl text-xs font-bold">APP</th>
+                                <th className="md:text-xl text-xs font-bold">NUMBER</th>
+                                <th className="md:text-xl text-xs font-bold">COMPLAIN</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr className="bg-gray-100 ">
+                                <th className='text-black'>22</th>
+                                <td className="md:text-xl text-xs text-black  font-semibold">Master</td>
+                                <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+996502319040">+996502319040</a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500">COMPLAIN</td>
+                            </tr>
+                            <tr className="bg-gray-100 ">
+                                <th className='text-black'>32</th>
+                                <td className="md:text-xl text-xs text-black font-semibold">Master</td>
+                                <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+85510801052">+85510801052</a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500">COMPLAIN</td>
+                            </tr>
+                            <tr className="bg-gray-100 ">
+                                <th className='text-black'>43</th>
+                                <td className="md:text-xl text-xs text-black font-semibold">Master</td>
+                                <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+996502319040">+996502319040</a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500">COMPLAIN</td>
+                            </tr>
+                            <tr className="bg-gray-100 ">
+                                <th className='text-black'>54</th>
+                                <td className="md:text-xl text-xs text-black font-semibold">Master</td>
+                                <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+85510801052">+85510801052</a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500">COMPLAIN</td>
+                            </tr>
+                            <tr className="bg-gray-100 ">
+                                <th className='text-black'>64</th>
+                                <td className="md:text-xl text-xs text-black font-semibold">Master</td>
+                                <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+996502319040">+996502319040</a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500">COMPLAIN</td>
+                            </tr>
+                            <tr className="bg-gray-100 ">
+                                <th className='text-black'>75</th>
+                                <td className="md:text-xl text-xs text-black font-semibold">Master</td>
+                                <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+996502319040">+996502319040</a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500">COMPLAIN</td>
+                            </tr>
+                            <tr className="bg-gray-100 ">
+                                <th className='text-black'>82</th>
+                                <td className="md:text-xl text-xs text-black font-semibold">Master</td>
+                                <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+966538432567">+966538432568</a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500">COMPLAIN</td>
+                            </tr>
+                            <tr className="bg-gray-100 ">
+                                <th className='text-black'>95</th>
+                                <td className="md:text-xl text-xs text-black font-semibold">Master</td>
+                                <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+85510801052">+85510801052</a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500">COMPLAIN</td>
+                            </tr>
+                            <tr className="bg-gray-100 ">
+                                <th className='text-black'>130</th>
+                                <td className="md:text-xl text-xs text-black font-semibold">Master</td>
+                                <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+966538432567">+966538432567</a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500">COMPLAIN</td>
+                            </tr>
+                            <tr className="bg-gray-100 ">
+                                <th className='text-black'>131</th>
+                                <td className="md:text-xl text-xs text-black font-semibold">Master</td>
+                                <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+996502319040">+996502319040</a></td>
+                                <td className="md:text-xl text-xs font-semibold text-red-500">COMPLAIN</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
             </div>
             <div className='bg-black p-3 my-6 text-white'>
                 <h2 className='flex items-center gap-2 uppercase text-3xl font-bold'><GoInfo className='bg-green-400 rounded-full' />এজেন্ট লিস্টঃ

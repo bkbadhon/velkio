@@ -6,11 +6,11 @@ const Lenden = () => {
     return (
         <div>
              <Helmet>
-                <title>Velkio | কিভাবে লেনদেন করবেন</title>
+                <title>Velki | কিভাবে লেনদেন করবেন</title>
             </Helmet>
             <Navbar></Navbar>
             <div className="md:w-9/12 border-2 border-gray-200 p-4 mx-auto my-12">
-                <h2 className="text-3xl font-semibold">Velkio তে কিভাবে লেনদেন করবেন?</h2>
+                <h2 className="text-3xl font-semibold">Velki তে কিভাবে লেনদেন করবেন?</h2>
 
                 <img className="w-full h-96 p-8" src={logo} alt="" />
 

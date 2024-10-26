@@ -1,30 +1,30 @@
 import Navbar from "./Navbar";
 import { FaWhatsapp } from "react-icons/fa6";
 import { Helmet } from "react-helmet";
-import agents from '../../public/agent.json'
 import { useEffect, useState } from "react";
 const MasterAgent = () => {
-    const [agent, setAgent] = useState(agents);
+    const [agent, setAgent] = useState([]);
     const [masterAgents, setMasterAgents] = useState([]);
     const [superAgents, setSuperAgents] = useState([]);
     const [subAgents, setSubAgents] = useState([]);
     const [searchType, setSearchType] = useState('master');
     const [searchId, setSearchId] = useState('');
+
     const [filteredAgents, setFilteredAgents] = useState([]);
 
     useEffect(() => {
-        // Filtering master agents
-        const master = agent.filter(item => item.agentType === 'master');
-        setMasterAgents(master);
+        fetch('/agent.json?v=' + new Date().getTime())
+            .then(response => response.json())
+            .then(data => {
+                setAgent(data);
 
-        // Filtering super agents
-        const superA = agent.filter(item => item.agentType === 'super');
-        setSuperAgents(superA);
-
-        // Filtering sub agents
-        const sub = agent.filter(item => item.agentType === 'sub');
-        setSubAgents(sub);
-    }, [agent]);
+                // Filter agents by type
+                setMasterAgents(data.filter(item => item.agentType === 'master'));
+                setSuperAgents(data.filter(item => item.agentType === 'super'));
+                setSubAgents(data.filter(item => item.agentType === 'sub'));
+            })
+            .catch(error => console.error("Error loading agents:", error));
+    }, []);
     const handleSearch = (e) => {
         e.preventDefault();
 
@@ -35,10 +35,11 @@ const MasterAgent = () => {
 
         setFilteredAgents(agentsList);
     };
+    console.log(agent)
     return (
         <div>
             <Helmet>
-                <title>Velkio | Master Agent</title>
+                <title>Velki | Master Agent</title>
             </Helmet>
             <Navbar></Navbar>
             <div>
@@ -106,8 +107,8 @@ const MasterAgent = () => {
 
 
 
-                <h2 className="text-3xl font-bold text-center my-8">VELKIO MASTER AGENT LIST</h2>
-                <h2 className="my-6 md:text-xl text-xs font-semibold text-center">সাব এডমিন 1 এর অধীনে সুপার এজেন্ট 156 এর অধীনে সর্বমোট মাস্টার এজেন্ট আছে 8 জন</h2>
+                <h2 className="text-3xl font-bold text-center my-8">VELKI MASTER AGENT LIST</h2>
+                <h2 className="my-6 md:text-xl text-xs font-semibold text-center">সাব এডমিন 1 এর অধীনে সুপার এজেন্ট 156 এর অধীনে সর্বমোট মাস্টার এজেন্ট আছে ৮ জন</h2>
                 <div className="overflow-x-hidden my-8">
                     <table className="md:table table-xs">
                         {/* head */}
@@ -141,7 +142,7 @@ const MasterAgent = () => {
                 </div>
                 <div className="divider"></div>
 
-                <h1 className="text-center md:text-xl text-xs font-semibold my-4"> সাব এডমিন 1 এর অধীনে সুপার এজেন্ট 564 এর অধীনে সর্বমোট মাস্টার এজেন্ট আছে 8 জন</h1>
+                <h1 className="text-center md:text-xl text-xs font-semibold my-4"> সাব এডমিন 2 এর অধীনে সুপার এজেন্ট 564 এর অধীনে সর্বমোট মাস্টার এজেন্ট আছে ৮ জন</h1>
                 <div className="overflow-x-hidden my-8">
                     <table className="md:table table-xs">
                         {/* head */}
@@ -173,7 +174,7 @@ const MasterAgent = () => {
                     </table>
                 </div>
                 <div className="divider"></div>
-                <h2 className="text-center md:text-xl text-xs font-semibold my-4">সাব এডমিন 3 এর অধীনে সুপার এজেন্ট 58 এর অধীনে সর্বমোট মাস্টার এজেন্ট আছে 8 জন</h2>
+                <h2 className="text-center md:text-xl text-xs font-semibold my-4">সাব এডমিন 3 এর অধীনে সুপার এজেন্ট 58 এর অধীনে সর্বমোট মাস্টার এজেন্ট আছে ৮ জন</h2>
                 <div className="overflow-x-hidden my-8">
                     <table className="md:table table-xs">
                         {/* head */}
@@ -204,14 +205,78 @@ const MasterAgent = () => {
                         </tbody>
                     </table>
                 </div>
-                <h2 className="md:text-xl text-xs font-semibold my-6">এজেন্ট দের সাথে লেনদেন এর আগে Velkio নিয়ম গুলো জেনে নিন!!</h2>
-                <p className="leading-10">**প্রতারনার হাত থেকে বাচতে সবার আগে ভিজিট করুন Velkioসাইটঃ VELKIO.CO <br />
+
+                <div className="divider"></div>
+                <h2 className="text-center md:text-xl text-xs font-semibold my-4">সাব এডমিন 4 এর অধীনে সুপার এজেন্ট 58 এর অধীনে সর্বমোট মাস্টার এজেন্ট আছে ৮ জন</h2>
+                <div className="overflow-x-hidden my-8">
+                    <table className="md:table table-xs">
+                        {/* head */}
+                        <thead>
+                            <tr className="">
+                                <th className="md:text-xl text-xs font-bold">ID NO</th>
+                                <th className="md:text-xl text-xs font-bold">AGENT</th>
+                                <th className="md:text-xl text-xs font-bold">APP</th>
+                                <th className="md:text-xl text-xs font-bold">NUMBER</th>
+                                <th className="md:text-xl text-xs font-bold">COMPLAIN</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            {subAgents && subAgents.map((sub, idx) => (
+                                <tr key={idx + 400} className="bg-base-100 ">
+                                    <th>{sub.agentId}</th>
+                                    <td className="md:text-xl text-xs font-semibold">Master</td>
+                                    <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
+                                    <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+966538432567">+{sub.number}</a></td>
+                                    <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+966538432567">অভিযোগ</a></td>
+                                </tr>
+                            ))}
+
+                        </tbody>
+                    </table>
+                </div>
+                <div className="divider"></div>
+
+                <h1 className="text-center md:text-xl text-xs font-semibold my-4"> সাব এডমিন 5 এর অধীনে সুপার এজেন্ট 564 এর অধীনে সর্বমোট মাস্টার এজেন্ট আছে ৮ জন</h1>
+                <div className="overflow-x-hidden my-8">
+                    <table className="md:table table-xs">
+                        {/* head */}
+                        <thead>
+                            <tr className="">
+                                <th className="md:text-xl text-xs font-bold">ID NO</th>
+                                <th className="md:text-xl text-xs font-bold">AGENT</th>
+                                <th className="md:text-xl text-xs font-bold">APP</th>
+                                <th className="md:text-xl text-xs font-bold">NUMBER</th>
+                                <th className="md:text-xl text-xs font-bold">COMPLAIN</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            {
+                                superAgents.map(superA =>
+                                    <tr key={superA.id} className="bg-base-100 ">
+                                        <th>{superA.agentId}</th>
+                                        <td className="md:text-xl text-xs font-semibold">Master</td>
+                                        <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
+                                        <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+966538432567">+{superA.number}</a></td>
+                                        <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+966538432567">অভিযোগ</a></td>
+                                    </tr>
+                                )
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+                <h2 className="md:text-xl text-xs font-semibold my-6">এজেন্ট দের সাথে লেনদেন এর আগে Velki নিয়ম গুলো জেনে নিন!!</h2>
+                <p className="leading-10">**প্রতারনার হাত থেকে বাচতে সবার আগে ভিজিট করুন Velki সাইটঃ Velki.CO <br />
 
                     **হোয়াটসাপ ব্যাতিত অন্য কোন এপ এর মাধ্যমে যোগাযোগ বা লেনদেন করা যাবে না এবং করলে তা গ্রহনযোগ্য হবে না। <br />
 
                     **এজেন্ট পাসোয়ার্ড পরিবর্তন করে দিলে - আপনি একাউন্টে ঢুকে আবার পাসোয়ার্ড পরিবর্তন করে নিবেন। এজেন্ট যাতে কোন ভাবেই আপনার পাসোয়ার্ড না জানে। আপনার পাসোয়ার্ড আপনি কাউকেই দিবেন না - সে যেই হউক না কেন। <br />
 
-                    **সকাল ৯ঃ৪৫ এর আগে এবং রাত ৯ঃ৪৫ এর পরে কোন ইউজার যদি এজেন্ট কে টাকা পাঠায় – অই টাকার দায়ভার Velkioনিবে না। <br />
+                    **সকাল ৯ঃ৪৫ এর আগে এবং রাত ৯ঃ৪৫ এর পরে কোন ইউজার যদি এজেন্ট কে টাকা পাঠায় – অই টাকার দায়ভার Velkiনিবে না। <br />
 
                     **প্রতিবার এজেন্ট এর কাছ থেকে পয়েন্ট নেবার আগে – এজেন্ট এর কাছে লেনদেন এর তথ্য জেনে নিতে হবে। যেহেতু এজেন্ট এক এক সময় এক ভাবে লেনদেন করে সেহেতু এই তথ্য জানা জরুরী। <br />
 

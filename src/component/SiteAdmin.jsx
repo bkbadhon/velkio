@@ -39,7 +39,7 @@ const SiteAdmin = () => {
     return (
         <div>
             <Helmet>
-                <title>Velkio | Site Admin</title>
+                <title>Velki | Site Admin</title>
             </Helmet>
             <Navbar></Navbar>
             <div>
@@ -91,7 +91,7 @@ const SiteAdmin = () => {
                                                 <td className="text-lg">উনার হোয়াটসঅ্যাপ নাম্বারঃ</td>
                                                 <td className="text-lg text-red-500"><a href="https://wa.me/+966538432567">+{agent.number}</a></td>
                                             </tr>
-                                            
+
                                         </tbody>
                                     </table>
                                 </div>
@@ -104,10 +104,10 @@ const SiteAdmin = () => {
                 null
             )}
             <div className="md:w-9/12 border-2 border-gray-400 p-2 mx-auto my-12">
-                
 
-                    <h2 className="text-3xl font-bold text-center my-8">VELKI MASTER AGENT LIST</h2>
-                    <h2 className="my-6 md:text-xl text-xs font-semibold text-center">সাব এডমিন 1 এর অধীনে সুপার এজেন্ট 156 এর অধীনে সর্বমোট মাস্টার এজেন্ট আছে 8 জন</h2>
+
+                <h2 className="text-3xl font-bold text-center my-8">VELKI MASTER AGENT LIST</h2>
+                <h2 className="my-6 md:text-xl text-xs font-semibold text-center">সাব এডমিন 1 এর অধীনে সুপার এজেন্ট 156 এর অধীনে সর্বমোট মাস্টার এজেন্ট আছে ৮ জন</h2>
                 <div className="overflow-x-hidden my-8">
                     <table className="md:table table-xs">
                         <thead>
@@ -140,7 +140,7 @@ const SiteAdmin = () => {
                 </div>
                 <div className="divider"></div>
 
-                <h1 className="text-center md:text-xl text-xs font-semibold my-4"> সাব এডমিন 1 এর অধীনে সুপার এজেন্ট 564 এর অধীনে সর্বমোট মাস্টার এজেন্ট আছে 8 জন</h1>
+                <h1 className="text-center md:text-xl text-xs font-semibold my-4"> সাব এডমিন 1 এর অধীনে সুপার এজেন্ট 564 এর অধীনে সর্বমোট মাস্টার এজেন্ট আছে ৮ জন</h1>
                 <div className="overflow-x-hidden my-8">
                     <table className="md:table table-xs">
                         {/* head */}
@@ -172,7 +172,7 @@ const SiteAdmin = () => {
                     </table>
                 </div>
                 <div className="divider"></div>
-                <h2 className="text-center md:text-xl text-xs font-semibold my-4">সাব এডমিন 3 এর অধীনে সুপার এজেন্ট 58 এর অধীনে সর্বমোট মাস্টার এজেন্ট আছে 8 জন</h2>
+                <h2 className="text-center md:text-xl text-xs font-semibold my-4">সাব এডমিন 3 এর অধীনে সুপার এজেন্ট 58 এর অধীনে সর্বমোট মাস্টার এজেন্ট আছে ৮ জন</h2>
                 <div className="overflow-x-hidden my-8">
                     <table className="md:table table-xs">
                         {/* head */}
@@ -203,14 +203,78 @@ const SiteAdmin = () => {
                         </tbody>
                     </table>
                 </div>
-                <h2 className="md:text-xl text-xs mb-4 font-semibold">এজেন্ট দের সাথে লেনদেন এর আগে Velkio নিয়ম গুলো জেনে নিন!!</h2>
-                <p className="ml-4 leading-10">**প্রতারনার হাত থেকে বাচতে সবার আগে ভিজিট করুন Velkioসাইটঃ VELKIO.CO
+                <div className="divider"></div>
+
+                <h1 className="text-center md:text-xl text-xs font-semibold my-4"> সাব এডমিন 1 এর অধীনে সুপার এজেন্ট 564 এর অধীনে সর্বমোট মাস্টার এজেন্ট আছে ৮ জন</h1>
+                <div className="overflow-x-hidden my-8">
+                    <table className="md:table table-xs">
+                        {/* head */}
+                        <thead>
+                            <tr className="">
+                                <th className="md:text-xl text-xs font-bold">ID NO</th>
+                                <th className="md:text-xl text-xs font-bold">AGENT</th>
+                                <th className="md:text-xl text-xs font-bold">APP</th>
+                                <th className="md:text-xl text-xs font-bold">NUMBER</th>
+                                <th className="md:text-xl text-xs font-bold">COMPLAIN</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            {
+                                superAgents.map(superA =>
+                                    <tr key={superA.id} className="bg-base-100 ">
+                                        <th>{superA.agentId}</th>
+                                        <td className="md:text-xl text-xs font-semibold">Master</td>
+                                        <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
+                                        <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+966538432567">+{superA.number}</a></td>
+                                        <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+966538432567">অভিযোগ</a></td>
+                                    </tr>
+                                )
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+                <h2 className="my-6 md:text-xl text-xs font-semibold text-center">সাব এডমিন 1 এর অধীনে সুপার এজেন্ট 156 এর অধীনে সর্বমোট মাস্টার এজেন্ট আছে ৮ জন</h2>
+                <div className="overflow-x-hidden my-8">
+                    <table className="md:table table-xs">
+                        <thead>
+                            <tr className="">
+                                <th className="md:text-xl text-xs font-bold">ID NO</th>
+                                <th className="md:text-xl text-xs font-bold">AGENT</th>
+                                <th className="md:text-xl text-xs font-bold">APP</th>
+                                <th className="md:text-xl text-xs font-bold">NUMBER</th>
+                                <th className="md:text-xl text-xs font-bold">COMPLAIN</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            {
+                                masterAgents.map(master =>
+                                    <tr key={master.id} className="bg-base-100 ">
+                                        <th>{master.agentId}</th>
+                                        <td className="md:text-xl text-xs font-semibold">Master</td>
+                                        <td><a href="https://wa.me/+966538432567"><FaWhatsapp className="text-3xl text-success"></FaWhatsapp></a></td>
+                                        <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+966538432567">+{master.number}</a></td>
+                                        <td className="md:text-xl text-xs font-semibold text-red-500"><a href="https://wa.me/+966538432567">অভিযোগ</a></td>
+                                    </tr>
+                                )
+                            }
+
+
+                        </tbody>
+                    </table>
+                </div>
+                <h2 className="md:text-xl text-xs mb-4 font-semibold">এজেন্ট দের সাথে লেনদেন এর আগে Velki নিয়ম গুলো জেনে নিন!!</h2>
+                <p className="ml-4 leading-10">**প্রতারনার হাত থেকে বাচতে সবার আগে ভিজিট করুন Velki সাইটঃ Velki.CO
 
                     **হোয়াটসাপ ব্যাতিত অন্য কোন এপ এর মাধ্যমে যোগাযোগ বা লেনদেন করা যাবে না এবং করলে তা গ্রহনযোগ্য হবে না। <br />
 
                     **এজেন্ট পাসোয়ার্ড পরিবর্তন করে দিলে - আপনি একাউন্টে ঢুকে আবার পাসোয়ার্ড পরিবর্তন করে নিবেন। এজেন্ট যাতে কোন ভাবেই আপনার পাসোয়ার্ড না জানে। আপনার পাসোয়ার্ড আপনি কাউকেই দিবেন না - সে যেই হউক না কেন। <br />
 
-                    **সকাল ৯ঃ৪৫ এর আগে এবং রাত ৯ঃ৪৫ এর পরে কোন ইউজার যদি এজেন্ট কে টাকা পাঠায় – অই টাকার দায়ভার Velkioনিবে না। <br />
+                    **সকাল ৯ঃ৪৫ এর আগে এবং রাত ৯ঃ৪৫ এর পরে কোন ইউজার যদি এজেন্ট কে টাকা পাঠায় – অই টাকার দায়ভার Velki নিবে না। <br />
 
                     **প্রতিবার এজেন্ট এর কাছ থেকে পয়েন্ট নেবার আগে – এজেন্ট এর কাছে লেনদেন এর তথ্য জেনে নিতে হবে। যেহেতু এজেন্ট এক এক সময় এক ভাবে লেনদেন করে সেহেতু এই তথ্য জানা জরুরী। <br />
 

@@ -10,19 +10,19 @@ const HomePage = () => {
     return (
         <div>
             <Helmet>
-                <title>Velkio | Homepage</title>
+                <title>Velki | Homepage</title>
             </Helmet>
             <Navbar></Navbar>
             <div className="md:w-9/12 md:flex  my-8 mx-auto border-2 border-gray-600">
                 <div className="md:w-3/5">
                     <h2 className="uppercase bg-gray-400 p-2 text-white">In The Spotlight</h2>
                     <button className="border-2 border-gray-500 hover:border-none duration-300 hover:bg-red-600 hover:text-white my-4 ml-2 p-1">Agent</button>
-                    <h2 className="text-3xl font-semibold hover:text-red-600 ml-6">Velkio অটো ডিপোজিট এজেন্ট</h2>
+                    <h2 className="text-3xl font-semibold hover:text-red-600 ml-6">Velki অটো ডিপোজিট এজেন্ট</h2>
 
-                    <p className="text-red-600 hover:underline text-center my-8  "><a href="#">Velkio তে কিভাবে অটো ডিপোজিট করবেন তা জানতে <br />
+                    <p className="text-red-600 hover:underline text-center my-8  "><a href="#">Velki তে কিভাবে অটো ডিপোজিট করবেন তা জানতে <br />
                         আপনি এই লিঙ্ক এ ক্লিক করে দয়া করে ভিডিও টি দেখে নিন</a></p>
 
-                    <button className="border-2 border-gray-300 p-1 bg-gray-100 mx-auto w-full my-2 ml-2 mr-2"><Link to={'/depositagent'}>Read more …Velkio অটো ডিপোজিট এজেন্ট</Link></button>
+                    <button className="border-2 border-gray-300 p-1 bg-gray-100 mx-auto w-full my-2 ml-2 mr-2"><Link to={'/depositagent'}>Read more …Velki অটো ডিপোজিট এজেন্ট</Link></button>
 
                     <div className="divider "></div>
                     <div className="md:flex gap-4 justify-center">
@@ -34,7 +34,7 @@ const HomePage = () => {
                             <Link to={'/'}>
                                 <h2 className="text-xl text-center hover:text-red-500 font-semibold mb-2">কাস্টমার সার্ভিস লিষ্ট</h2>
                             </Link>
-                            <h2 className="text-xl text-center font-bold ">VELKIO CUSTOMER SERVICE LIST</h2>
+                            <h2 className="text-xl text-center font-bold ">Velki CUSTOMER SERVICE LIST</h2>
 
                             <button className="border-2 border-gray-300 p-1 bg-gray-100 mx-auto w-full my-2 ml-2 mr-2"><Link to={'/customerService'}>Read more …কাস্টমার সার্ভিস লিষ্ট</Link></button>
                         </div>
@@ -46,7 +46,7 @@ const HomePage = () => {
                             <Link to={'/'}>
                                 <h2 className="text-xl text-center hover:text-red-500 font-semibold mb-2">মাস্টার এজেন্ট লিষ্টঃ</h2>
                             </Link>
-                            <h2 className="text-xs text-center font-bold">এজেন্ট দের সাথে লেনদেন এর আগে Velkio নিয়ম গুলো জেনে নিন!! **প্রতারনার হাত থেকে বাচতে সবার আগে</h2>
+                            <h2 className="text-xs text-center font-bold">এজেন্ট দের সাথে লেনদেন এর আগে Velki নিয়ম গুলো জেনে নিন!! **প্রতারনার হাত থেকে বাচতে সবার আগে</h2>
 
                             <button className="border-2 border-gray-300 p-1 bg-gray-100 mx-auto w-full my-2 ml-2 mr-2"><Link to={'/masterAgentList'}>Read more.. মাস্টার এজেন্ট লিষ্ট</Link></button>
                         </div>
@@ -58,7 +58,7 @@ const HomePage = () => {
                             <Link to={'/'}>
                                 <h2 className="text-xl text-center hover:text-red-500 font-semibold mb-2">সুপার এজেন্ট লিষ্টঃ</h2>
                             </Link>
-                            <h2 className="text-xs text-center font-bold">এজেন্ট দের সাথে লেনদেন এর আগে Velkio নিয়ম গুলো জেনে নিন!! **প্রতারনার হাত থেকে বাচতে সবার আগে</h2>
+                            <h2 className="text-xs text-center font-bold">এজেন্ট দের সাথে লেনদেন এর আগে Velki নিয়ম গুলো জেনে নিন!! **প্রতারনার হাত থেকে বাচতে সবার আগে</h2>
 
                             <button className="border-2 border-gray-300 p-1 bg-gray-100 mx-auto w-full my-2 ml-2 mr-2"><Link to={'/siteAdmin'}>Read more.. Site Admin লিষ্ট</Link></button>
                         </div>
@@ -168,7 +168,7 @@ const HomePage = () => {
             <div className="md:w-9/12 mx-auto">
                 <h2 className="text-2xl font-bold">FAQ</h2>
                 <div className="bg-gray-200 w-full p-2">
-                    <button className=" flex gap-2 items-center bg-red-500 text-white p-1 px-4">Velkio FAQ <FaArrowRight /></button>
+                    <button className=" flex gap-2 items-center bg-red-500 text-white p-1 px-4">Velki FAQ <FaArrowRight /></button>
                 </div>
 
                 <div>
@@ -176,21 +176,21 @@ const HomePage = () => {
                     <div className="flex mb-2 border-2 border-dashed items-center gap-2">
                         <img className="w-40 h-20" src={logo} alt="" />
                         <div>
-                            <button className="border-2 border-gray-300 hover:bg-red-500 duration-300 hover:text-white">Velkio FAQ</button>
-                            <h2 className="md:text-xl hover:text-red-500"><Link to={'/lenden'}>Velkio তে কিভাবে লেনদেন করবেন?</Link></h2>
+                            <button className="border-2 border-gray-300 hover:bg-red-500 duration-300 hover:text-white">Velki FAQ</button>
+                            <h2 className="md:text-xl hover:text-red-500"><Link to={'/lenden'}>Velki তে কিভাবে লেনদেন করবেন?</Link></h2>
                         </div>
                     </div>
                     <div className="flex mb-2 border-2 border-dashed items-center gap-2">
                         <img className="w-40 h-20" src={logo} alt="" />
                         <div>
-                            <button className="border-2 border-gray-300 hover:bg-red-500 duration-300 hover:text-white">Velkio FAQ</button>
+                            <button className="border-2 border-gray-300 hover:bg-red-500 duration-300 hover:text-white">Velki FAQ</button>
                             <h2 className="md:text-xl  hover:text-red-500"><Link to={'/create'}>কিভাবে একাউন্ট খুলবেন?</Link></h2>
                         </div>
                     </div>
                     <div className="flex mb-2 border-2 border-dashed items-center gap-2">
                         <img className="w-40 h-20" src={logo} alt="" />
                         <div>
-                            <button className="border-2 border-gray-300 hover:bg-red-500 duration-300 hover:text-white">Velkio FAQ</button>
+                            <button className="border-2 border-gray-300 hover:bg-red-500 duration-300 hover:text-white">Velki FAQ</button>
                             <h2 className="md:text-xl hover:text-red-500"><Link to={'/condition'}>
                             একাউন্ট খোলার নিয়ম বা শর্ত গুলো কি কি?</Link></h2>
                         </div>
@@ -198,28 +198,28 @@ const HomePage = () => {
                     <div className="flex mb-2 border-2 border-dashed items-center gap-2">
                         <img className="w-40 h-20" src={logo} alt="" />
                         <div>
-                            <button className="border-2 border-gray-300 hover:bg-red-500 duration-300 hover:text-white">Velkio FAQ</button>
-                            <h2 className="md:text-xl  hover:text-red-500"><Link to={'/'}>Velkio ফেইসবুক গ্রুপ লিঙ্ক কোন টা?</Link></h2>
+                            <button className="border-2 border-gray-300 hover:bg-red-500 duration-300 hover:text-white">Velki FAQ</button>
+                            <h2 className="md:text-xl  hover:text-red-500"><Link to={'/'}>Velki ফেইসবুক গ্রুপ লিঙ্ক কোন টা?</Link></h2>
                         </div>
                     </div>
                     <div className="flex mb-2 border-2 border-dashed items-center gap-2">
                         <img className="w-40 h-20" src={logo} alt="" />
                         <div>
-                            <button className="border-2 border-gray-300 hover:bg-red-500 duration-300 hover:text-white">Velkio FAQ</button>
-                            <h2 className="md:text-xl  hover:text-red-500"><Link to={'/howToBeAgent'}>কিভাবে আমি Velkioতে এজেন্ট হতে পারি?</Link></h2>
+                            <button className="border-2 border-gray-300 hover:bg-red-500 duration-300 hover:text-white">Velki FAQ</button>
+                            <h2 className="md:text-xl  hover:text-red-500"><Link to={'/howToBeAgent'}>কিভাবে আমি Velkiতে এজেন্ট হতে পারি?</Link></h2>
                         </div>
                     </div>
                     <div className="flex mb-2 border-2 border-dashed items-center gap-2">
                         <img className="w-40 h-20" src={logo} alt="" />
                         <div>
-                            <button className="border-2 border-gray-300 hover:bg-red-500 duration-300 hover:text-white">Velkio FAQ</button>
+                            <button className="border-2 border-gray-300 hover:bg-red-500 duration-300 hover:text-white">Velki FAQ</button>
                             <h2 className="md:text-xl  hover:text-red-500"><Link to={'/master'}>কিভাবে আমি অনলাইন মাষ্টার এজেন্ট হতে পারি?</Link></h2>
                         </div>
                     </div>
                     <div className="flex mb-2 border-2 border-dashed items-center gap-2">
                         <img className="w-40 h-20" src={logo} alt="" />
                         <div>
-                            <button className="border-2 border-gray-300 hover:bg-red-500 duration-300 hover:text-white">Velkio FAQ</button>
+                            <button className="border-2 border-gray-300 hover:bg-red-500 duration-300 hover:text-white">Velki FAQ</button>
                             <h2 className="md:text-xl  hover:text-red-500"><Link to={'/ovijog'}>এজেন্ট এর বিরুদ্ধে কিভাবে অভিযোগ করবেন?</Link></h2>
                         </div>
                     </div>
